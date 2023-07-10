@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6d288a-9bd5-4706-9e5f-641335f3685b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/vendor/license/DSC05542.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/vendor/license/DSC05542_DxFoupk.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/registerVendor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/custDashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/vendorDashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodOnline_main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -103,7 +95,9 @@
       <workItem from="1688031426040" duration="13515000" />
       <workItem from="1688549288905" duration="2565000" />
       <workItem from="1688622414750" duration="4417000" />
-      <workItem from="1688895686455" duration="5206000" />
+      <workItem from="1688895686455" duration="5767000" />
+      <workItem from="1688901520066" duration="2382000" />
+      <workItem from="1688978219640" duration="4634000" />
     </task>
     <task id="LOCAL-00001" summary="First push">
       <created>1687957392028</created>
@@ -133,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688626258600</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Vendor registration">
+      <created>1688900991091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688900991091</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +145,7 @@
     <MESSAGE value="First push" />
     <MESSAGE value="Configuring project" />
     <MESSAGE value="Register user functionalities and the homepage setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Register user functionalities and the homepage setup" />
+    <MESSAGE value="Vendor registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vendor registration" />
   </component>
 </project>
