@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6d288a-9bd5-4706-9e5f-641335f3685b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/403.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/custDashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/vendorDashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/emails/account_verification_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/emails/reset_password_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/forgot_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/reset_password.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodOnline_main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="2Rppt1Te4mE9jfstjodeVTaHMQ8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,12 +56,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodOnline_main/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/accounts/emails" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Kursy Programowania\Django Multi Vendor App\foodOnline_main\foodOnline_main\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Kursy Programowania\Django Multi Vendor App\foodOnline_main\templates\accounts\emails" />
     </key>
   </component>
   <component name="RunManager">
@@ -97,7 +107,10 @@
       <workItem from="1688622414750" duration="4417000" />
       <workItem from="1688895686455" duration="5767000" />
       <workItem from="1688901520066" duration="2382000" />
-      <workItem from="1688978219640" duration="4634000" />
+      <workItem from="1688978219640" duration="11746000" />
+      <workItem from="1689144879376" duration="614000" />
+      <workItem from="1689164304300" duration="640000" />
+      <workItem from="1689242090068" duration="3845000" />
     </task>
     <task id="LOCAL-00001" summary="First push">
       <created>1687957392028</created>
@@ -134,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688900991091</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Customer and vendor registration, restriction from viewing unauthorized pages">
+      <created>1688983007772</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688983007772</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +166,7 @@
     <MESSAGE value="Configuring project" />
     <MESSAGE value="Register user functionalities and the homepage setup" />
     <MESSAGE value="Vendor registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vendor registration" />
+    <MESSAGE value="Customer and vendor registration, restriction from viewing unauthorized pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer and vendor registration, restriction from viewing unauthorized pages" />
   </component>
 </project>
