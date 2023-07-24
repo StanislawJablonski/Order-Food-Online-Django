@@ -13,6 +13,9 @@ from vendor.forms import VendorForm
 
 
 # Restrict user from accessing unauthorized page
+from vendor.models import Vendor
+
+
 def check_role_vendor(user):
     if user.role == 1:
         return True
