@@ -2,50 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6d288a-9bd5-4706-9e5f-641335f3685b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/context_processors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/users/cover_photos/whenpiwo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/users/profile_pictures/DSC05542.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/vendor/license/whenpiwo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/Pan-Fried-Chicken-600x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/brand_pic3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/burger-600x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/chicken-600x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/chicken-barbeque.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/cover-photo-1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/cover-photo-2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/cover-photo-3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/cover-photo-4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/cover-photo-5.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/italian-pizza-600x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/pizza-600x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/profile-picture-1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/profile-picture-2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/profile-picture-3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/profile-picture-4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/profile-picture-5.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/rice-bowl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/seafood-600x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/steam-rice.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/tuna-fish.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Demo Images/veg-pizza-600x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/emails/admin_approval_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/c_sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/cover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/v_sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/vprofile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/migrations/0003_remove_userprofile_address_line_1_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/users/profile_pictures/zdj.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodOnline_main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodOnline_main/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/static/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/custDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/custDashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/vendorDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/vendorDashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/cover.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/cover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/vendor/vprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vendor/vprofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +114,8 @@
       <workItem from="1689144879376" duration="614000" />
       <workItem from="1689164304300" duration="640000" />
       <workItem from="1689242090068" duration="4057000" />
-      <workItem from="1690198658590" duration="9161000" />
+      <workItem from="1690198658590" duration="9828000" />
+      <workItem from="1690274626118" duration="5311000" />
     </task>
     <task id="LOCAL-00001" summary="First push">
       <created>1687957392028</created>
@@ -199,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689246060578</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Vendor and customer dashboard edits">
+      <created>1690208350989</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690208350989</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +187,7 @@
     <MESSAGE value="Vendor registration" />
     <MESSAGE value="Customer and vendor registration, restriction from viewing unauthorized pages" />
     <MESSAGE value="Added forgot password feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added forgot password feature" />
+    <MESSAGE value="Vendor and customer dashboard edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vendor and customer dashboard edits" />
   </component>
 </project>
