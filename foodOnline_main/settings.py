@@ -67,6 +67,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'accounts.context_processors.get_vendor',
+                'accounts.context_processors.get_google_api',
             ],
         },
     },
@@ -157,3 +158,4 @@ EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'Food Online'
 
 
+GOOGLE_API_KEY = 'AIzaSyBYLIpQq3MYTvJ3TH14NMjx_C1BslHvAQs'
