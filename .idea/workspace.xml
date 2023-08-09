@@ -2,30 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6d288a-9bd5-4706-9e5f-641335f3685b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu_4xWOkee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu_AdcFwBV.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu_OMyHf2U.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/add_category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/edit_category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/fooditems_by_category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/vendor/menu_builder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu6_9GjQQGn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu6_Lbmtys9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu6_TTt6dpB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu6_ZfKIpIP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu6_Zr0WbEf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu6_j6eVyXv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu6_mC24Ik1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu_2vHkGUP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu_Y7Gxz1Q.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu_Yxbzit7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu_as7qBMD.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu_kmgG1AY.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/foodimages/stachu_n5iViPb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/vendor/license/stachu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/vendor/license/stachu_B6grNrI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/vendor/license/stachu_PakuYwR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/vendor/add_food.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/vendor/edit_food.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodOnline_main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodOnline_main/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/static/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/v_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/v_sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodOnline_main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/cover.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/cover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/vendor/add_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vendor/add_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/vendor/edit_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vendor/edit_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/vendor/fooditems_by_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vendor/fooditems_by_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/vendor/menu_builder.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vendor/menu_builder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/vendor/vprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vendor/vprofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/views.py" afterDir="false" />
     </list>
@@ -134,7 +142,8 @@
       <workItem from="1690274626118" duration="5432000" />
       <workItem from="1691399285956" duration="5695000" />
       <workItem from="1691488615529" duration="6350000" />
-      <workItem from="1691496669386" duration="8309000" />
+      <workItem from="1691496669386" duration="8469000" />
+      <workItem from="1691560869606" duration="8837000" />
     </task>
     <task id="LOCAL-00001" summary="First push">
       <created>1687957392028</created>
@@ -206,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691407384268</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="menu builder, category CRUD">
+      <created>1691505314572</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691505314572</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +239,7 @@
     <MESSAGE value="Vendor and customer dashboard edits" />
     <MESSAGE value="Vendor profile form + validation" />
     <MESSAGE value="Restaurant profile + google geocoding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restaurant profile + google geocoding" />
+    <MESSAGE value="menu builder, category CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu builder, category CRUD" />
   </component>
 </project>
