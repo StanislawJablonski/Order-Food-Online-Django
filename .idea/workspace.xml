@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd6d288a-9bd5-4706-9e5f-641335f3685b" name="Default Changelist" comment="food items CRUD">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="fd6d288a-9bd5-4706-9e5f-641335f3685b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/marketplace/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketplace/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketplace/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketplace/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketplace/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketplace/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketplace/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketplace/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/migrations/0002_alter_category_options_alter_fooditem_food_title.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/marketplace/listings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/marketplace/vendor_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/migrations/0002_vendor_vendor_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/migrations/0003_alter_vendor_vendor_slug.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodOnline_main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodOnline_main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodOnline_main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -111,7 +132,9 @@
       <workItem from="1691399285956" duration="5695000" />
       <workItem from="1691488615529" duration="6350000" />
       <workItem from="1691496669386" duration="8469000" />
-      <workItem from="1691560869606" duration="9117000" />
+      <workItem from="1691560869606" duration="9262000" />
+      <workItem from="1691736822627" duration="4462000" />
+      <workItem from="1691824869571" duration="3204000" />
     </task>
     <task id="LOCAL-00001" summary="First push">
       <created>1687957392028</created>
@@ -197,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691569864978</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updated .gitignore">
+      <created>1691570146063</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1691570146063</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +246,7 @@
     <MESSAGE value="Restaurant profile + google geocoding" />
     <MESSAGE value="menu builder, category CRUD" />
     <MESSAGE value="food items CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="food items CRUD" />
+    <MESSAGE value="updated .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
   </component>
 </project>
