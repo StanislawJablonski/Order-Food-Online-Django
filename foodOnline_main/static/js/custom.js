@@ -119,6 +119,7 @@ $(document).ready(function (){
                         window.location = '/login';
                     })
                 }
+
                 else if(response.status == 'Failed'){
                     swal(response.message, '', "error")
                 }else{
