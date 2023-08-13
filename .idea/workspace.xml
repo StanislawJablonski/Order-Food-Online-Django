@@ -2,29 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6d288a-9bd5-4706-9e5f-641335f3685b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/marketplace/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marketplace/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marketplace/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marketplace/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marketplace/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marketplace/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marketplace/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marketplace/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/migrations/0002_alter_category_options_alter_fooditem_food_title.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/marketplace/listings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/marketplace/vendor_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/migrations/0002_vendor_vendor_slug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/migrations/0003_alter_vendor_vendor_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketplace/context_processors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketplace/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/migrations/0003_alter_fooditem_category_name.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodOnline_main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodOnline_main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodOnline_main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodOnline_main/static/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/static/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketplace/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketplace/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketplace/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketplace/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/marketplace/vendor_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/marketplace/vendor_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -134,7 +125,8 @@
       <workItem from="1691496669386" duration="8469000" />
       <workItem from="1691560869606" duration="9262000" />
       <workItem from="1691736822627" duration="4462000" />
-      <workItem from="1691824869571" duration="3204000" />
+      <workItem from="1691824869571" duration="10294000" />
+      <workItem from="1691912540554" duration="5152000" />
     </task>
     <task id="LOCAL-00001" summary="First push">
       <created>1687957392028</created>
@@ -227,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691570146063</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="restaurant-detail view">
+      <created>1691829261817</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1691829261817</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +246,7 @@
     <MESSAGE value="menu builder, category CRUD" />
     <MESSAGE value="food items CRUD" />
     <MESSAGE value="updated .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
+    <MESSAGE value="restaurant-detail view" />
+    <option name="LAST_COMMIT_MESSAGE" value="restaurant-detail view" />
   </component>
 </project>
