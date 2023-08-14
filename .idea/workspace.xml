@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6d288a-9bd5-4706-9e5f-641335f3685b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/marketplace/context_processors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marketplace/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/migrations/0003_alter_fooditem_category_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/marketplace/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodOnline_main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodOnline_main/static/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/static/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketplace/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketplace/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketplace/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketplace/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodOnline_main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodOnline_main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketplace/context_processors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marketplace/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketplace/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marketplace/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketplace/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/marketplace/vendor_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/marketplace/vendor_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +122,9 @@
       <workItem from="1691560869606" duration="9262000" />
       <workItem from="1691736822627" duration="4462000" />
       <workItem from="1691824869571" duration="10294000" />
-      <workItem from="1691912540554" duration="5152000" />
+      <workItem from="1691912540554" duration="5895000" />
+      <workItem from="1691995800433" duration="3001000" />
+      <workItem from="1691998842350" duration="4280000" />
     </task>
     <task id="LOCAL-00001" summary="First push">
       <created>1687957392028</created>
@@ -226,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691829261817</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="restaurant-detail view">
+      <created>1691926690639</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1691926690639</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added basic version of Cart Functionality">
+      <created>1691926802957</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1691926802957</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +259,7 @@
     <MESSAGE value="food items CRUD" />
     <MESSAGE value="updated .gitignore" />
     <MESSAGE value="restaurant-detail view" />
-    <option name="LAST_COMMIT_MESSAGE" value="restaurant-detail view" />
+    <MESSAGE value="Added basic version of Cart Functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic version of Cart Functionality" />
   </component>
 </project>
